@@ -1,7 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #222828;
+    color: #C3CACA;
+
+}
+
+header{
+    background-color: #0C0C0C;
+    width: 94%;
+    border-radius: 8%;
+    margin-left:  3%;
+    margin-top: 2%;
+}
+
 header img{
-    width: 15px;
+    margin-left: 297px;
+}
+header p{
+    margin: 3%;
 }
 
 summary{
     list-style: none;
+}
+
+h1{
+    text-align: center;
+    margin: 4%;
+}
+
+
+img{
+    width: 40px;
 }
