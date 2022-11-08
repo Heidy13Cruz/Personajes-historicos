@@ -5,7 +5,11 @@
 
 body{
     background-color: #222828;
-    color: #C3CACA;
+    color: white;
+    font-family: 'Charm', cursive;
+    text-align: justify;
+    width: 95%;
+    margin-left: 2%;
 
 }
 
@@ -36,4 +40,53 @@ h1{
 
 img{
     width: 40px;
+}
+
+#hr1{
+    width: 150px;
+    height: 2px;
+    margin-left: 100px;
+    background: rgb(228,20,13);
+    background: linear-gradient(90deg, rgba(228,20,13,1) 0%, rgba(9,9,121,1) 35%, rgba(4,128,199,1) 70%, rgba(23,255,6,1) 100%);
+    border: none;
+    margin-bottom: 25px;
+}
+
+main{
+    background-color:#C3CACA;
+    margin-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 8%;
+    color: black;
+}
+
+.cd hr{
+    margin-top: 26px;
+    margin-left: 31%;
+    width: 120px;
+}
+
+.cd img{
+    width: 250px;
+    border-radius: 35%;
+    margin-left: 45px;
+}
+
+.cd h2{
+    text-align: center;
+    color: black;
+}
+button{
+    margin-left: 35%;
+    background-color:#C3CACA;
+}
+
+footer{
+    padding: 1%;
+    background-color: #0C0C0C;
+    text-align: center;   
+}
+
+footer img{
+    width: 30px;
 }
