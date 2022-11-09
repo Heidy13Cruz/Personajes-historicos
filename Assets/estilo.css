@@ -52,6 +52,10 @@ img{
     margin-bottom: 25px;
 }
 
+#flecha{
+    margin-left: 92%;
+}
+
 main{
     background-color:#C3CACA;
     margin-top: 5%;
@@ -109,6 +113,7 @@ footer p{
 
 #botoncito{
     margin-left: 0%;
+
 }
 
 #equis2{
@@ -134,7 +139,7 @@ footer p{
         text-align: center;
     }
     .cd hr{
-        margin-left: 43%;
+        margin-left: 65%;
         background-color: rgb(83, 79, 79);
     }
     .cd img{
@@ -200,5 +205,4 @@ footer p{
         margin-left: 0%;
         margin-top: 35px;
     }
-
 }
