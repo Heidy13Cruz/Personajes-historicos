@@ -22,7 +22,7 @@ header{
 }
 
 header img{
-    margin-left: 297px;
+    margin-left: 280px;
 }
 header p{
     margin: 3%;
@@ -116,11 +116,55 @@ footer p{
     width: 25px;
 }
 
-/*Tamaño grande*/
+/* Tamaño Grande*/
+@media screen and (min-width: 1000px){
+    header img{
+        margin-left: 94%;
+    }
+    header p{
+        text-align: center;
+    }
+    #hr1{
+        width: 155px;
+        margin-left: 42%;
+    }
+    body {
+        margin-left: 10%;
+        width: 80%;
+        text-align: center;
+    }
+    .cd hr{
+        margin-left: 43%;
+        background-color: rgb(83, 79, 79);
+    }
+    .cd img{
+        width: 300px;
+        border-radius: 40%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+    }
+    .cd h2{
+        margin-top: 2%;
+        margin-bottom: 4%;
+    }
+    button{
+        margin: 0%;
+    }
+    .cd p{
+        width: 70%;
+        margin-left: 15%;
+    }
+}
 
-@media screen and (width: 1000px;){
-    header img {
-        margin-left: 60%;
-         
+/* Tamaño Mediano*/
+@media screen and (min-width: 800px){
+    header img{
+        margin-left: 90%;
+    }
+    header p{
+        text-align: center;
+    }
+    #hr1{
+        margin-left: 40%;
     }
 }
