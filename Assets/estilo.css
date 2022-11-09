@@ -102,6 +102,20 @@ footer p{
     margin-top: 25px;
 }
 
+#textoo{
+    width: 100%;
+    height: 330px;
+}
+
+#botoncito{
+    margin-left: 0%;
+}
+
+#equis2{
+    margin-left: 90%;
+    width: 25px;
+}
+
 /*Tamaño grande*/
 
 @media screen and (width: 1000px;){
